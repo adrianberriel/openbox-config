@@ -1,0 +1,14 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+nitrogen --restore &
+conky -c ~/.conkytheme/z3bra/conkyrc_cpu &
+conky -c ~/.conkytheme/z3bra/conkyrc_memory &
+conky -c ~/.conkytheme/z3bra/conkyrc_network &
+conky -c ~/.conkytheme/z3bra/conkyrc_system &
+#xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 &
+volumeicon &
+clipit &
